@@ -1,0 +1,4 @@
+torn 
+pyngrok
+requests
+pyinstaller
