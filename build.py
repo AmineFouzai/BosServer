@@ -4,7 +4,7 @@ import PyInstaller.__main__
 def main():
     PyInstaller.__main__.run([
     '--log-level=ERROR',
-    # '--noconsole',
+    '--noconsole',
     '--add-data=conf/*;conf',
     '--add-data=routes/*;routes',
     '--add-data=controllers/*;controllers',
